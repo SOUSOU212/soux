@@ -1,0 +1,222 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(desert.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100px;
+
+}
+
+.search-box{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    background: #000;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    
+    
+    
+    }
+    
+    
+.search-box:hover .search-txt{
+
+    width: 220px;
+    padding: 0 6px;
+
+
+
+}
+
+.search-btn{
+    text-decoration: none;
+    background: #000;
+    color: orangered;
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.search-txt{
+border: none;
+background: none;
+outline: none;
+color: #fff;
+float: left;
+font-size: 16px;
+transition: 0,3s ease;
+line-height: 40px;
+width: 0px;
+
+}
+gyugyg
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+
+header{
+    background-image: url(desert.jpg);
+    height: 100vh;
+    background-size: cover;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 60px;
+    min-height: 600px;
+    margin-right: 50px;
+    font-size: 23px;
+
+
+}
+    
+ul li{
+display:inline-block ;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    
+
+
+ }
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+
+
+}
+
+.logo img{
+     float: left;
+     width: 150px;
+     height: 90px;
+
+}
+
+
+.main{
+    max-width: 1200px;
+    
+
+
+}
+
+
+.title{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+
+
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+
+
+
+
+}
+
+
+.button{
+     position: absolute;
+     top: 54%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+
+
+
+
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+
+
+
+
+
+
+}
+
+
+.btn:hover{
+      background-color: #fff;
+      color: #fff;
+
+
+
+}
+
+.sub-menu ul{
+        position: absolute;
+        
+}
+
+.main ul li:hover .sub-menu ul{
+    display:block;
+    margin: 6px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
